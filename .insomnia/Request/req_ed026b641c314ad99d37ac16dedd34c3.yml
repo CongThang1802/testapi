@@ -1,0 +1,30 @@
+_id: req_ed026b641c314ad99d37ac16dedd34c3
+type: Request
+parentId: fld_e32c298aed2a41e68bd247b4f872d4a7
+modified: 1650515125935
+created: 1650515029816
+url: "{{ _.baseUrl }}/auth/login"
+name: Login
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"username" :"thang1",
+    	"password" :"14e1b600b1fd579f47433b88e8d85291"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_a6b60affd4484f76b218be6bcb6e50d3
+authentication: {}
+metaSortKey: -1650515029816
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
